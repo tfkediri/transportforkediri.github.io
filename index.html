@@ -12,8 +12,8 @@
     <meta name="robots" content="index, follow">
 
     <!--OpenGraph Meta-->
-    <meta property="og:title" content="Peta dan Panduan Transportasi Umum Bandung Raya">
-    <meta property="og:description" content="Lihat peta dan panduan kereta api, bus kota, dan angkot Bandung Raya di situs web Transport for Bandung.">
+    <meta property="og:title" content="Peta Bus Kota SATRIA Kediri">
+    <meta property="og:description" content="Lihat peta rute dan titik halte bus SATRIA.">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Transport for Kediri">
     <meta property="og:locale" content="id_ID">
@@ -25,16 +25,16 @@
 
     <!--Twitter Meta-->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Peta dan Panduan Transportasi Umum Bandung Raya">
-    <meta name="twitter:description" content="Lihat peta dan panduan kereta api, bus kota, dan angkot Bandung Raya di situs web Transport for Bandung.">
+    <meta name="twitter:title" content="Peta Bus Kota SATRIA Kediri">
+    <meta name="twitter:description" content="Lihat peta rute dan titik halte bus SATRIA.">
     <meta name="twitter:image" content="https://transportforbandung.org/assets/peta-fdtb-snippet.png">
     <meta name="twitter:image:alt" content="A preview of Greater Bandung mass transit map">
-    <meta name="twitter:site" content="@tf_bandung">
-    <meta name="twitter:creator" content="@tf_bandung">
+    <meta name="twitter:site" content="@tfkediri">
+    <meta name="twitter:creator" content="@tfkediri">
     <meta name="twitter:data1" content="Transport for Kediri">
     
-    <link rel="icon" href="assets/TfB-logo-green-white-background.svg">
-    <meta name="theme-color" content="#00A64F">
+    <link rel="icon" href="assets/TfK-logo-green-white-background.svg">
+    <meta name="theme-color" content="#7C4D96">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://unpkg.com">
@@ -60,8 +60,13 @@
     </style>
 </head>
 <body>
-    <div class="wide-content" style="padding-right: 0px; padding-left: 0px;">        
-        <div class="card overflow-hidden mb-3">
+    <div style="background-color: #7C4D96;">
+    <div class="wide-content" style="padding-right: 0px; padding-left: 0px; background-color: #7C4D96;">
+            <div class="mb-4">
+                <h2 style="color: #FFFFFF">Peta Rute SATRIA</h2>
+                    <p class="alert alert-info small"><i class="bi bi-info-circle fs-5 me-2"></i> Klik <i class="bi bi-list"></i> pilih rute yang ingin Anda ketahui, kemudian tunggu beberapa saat hingga rute muncul di peta. Lihat peta dengan layar penuh dan lacak lokasi Anda saat ini melalui tombol di kiri atas.</p>
+                </div>      
+            <div class="card overflow-hidden mb-3">
             <!-- Map -->
             <div class="col-lg-12">
                 <div id="map" class="w-100"></div>
@@ -79,7 +84,7 @@
                     
                     <!-- Footer -->
                     <div class="text-muted opacity-75 mt-2" style="font-size: .6rem;">
-                        <i class="bi bi-database"></i>&nbsp;Terdapat masalah data? Diskusikan di <a href="https://t.me/fdtbandung"><b>grup Telegram FDTB</b></a>.
+                        <i class="bi bi-database"></i>&nbsp;Data bersumber dari survei lapangan Transport for Kediri dan Dinas Perhubungan Kota Kediri</b></a>.
                     </div>
                 </div>
             </div>
@@ -95,6 +100,7 @@
             };
         </script>
         <script defer="" src="./components/intermap-display.js"></script>
+    </div>
     </div>
     <script src="./components/main.js" defer></script>
 </body>
