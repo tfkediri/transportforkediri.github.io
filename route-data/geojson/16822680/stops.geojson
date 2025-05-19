@@ -1,0 +1,597 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.985178,
+          -7.8273901
+        ]
+      },
+      "properties": {
+        "id": 11417886929,
+        "bus": "yes",
+        "name": "Campurejo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9892473,
+          -7.8166539
+        ]
+      },
+      "properties": {
+        "id": 11417886930,
+        "bus": "yes",
+        "name": "RSU Lirboyo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9923761,
+          -7.8113611
+        ]
+      },
+      "properties": {
+        "id": 11417886931,
+        "bus": "yes",
+        "name": "Kelurahan Sukorame",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9974576,
+          -7.8112654
+        ]
+      },
+      "properties": {
+        "id": 11425107979,
+        "bus": "yes",
+        "name": "RS Husada",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9942475,
+          -7.8277406
+        ]
+      },
+      "properties": {
+        "id": 12736872656,
+        "bus": "yes",
+        "name": "SDN Lirboyo 1 dan 2",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0288192,
+          -7.8192001
+        ]
+      },
+      "properties": {
+        "id": 12740593721,
+        "bus": "yes",
+        "name": "MAN 2 Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.02666,
+          -7.8175028
+        ]
+      },
+      "properties": {
+        "id": 12740593722,
+        "bus": "yes",
+        "name": "SDN Banjaran",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0211206,
+          -7.8159437
+        ]
+      },
+      "properties": {
+        "id": 12740593724,
+        "bus": "yes",
+        "name": "Bank Mega",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0192392,
+          -7.815551
+        ]
+      },
+      "properties": {
+        "id": 12740593725,
+        "bus": "yes",
+        "name": "Kediri Mall",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0133222,
+          -7.8168231
+        ]
+      },
+      "properties": {
+        "id": 12740593726,
+        "bus": "yes",
+        "name": "Dhoho",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0164816,
+          -7.8216714
+        ]
+      },
+      "properties": {
+        "id": 12740593730,
+        "bus": "yes",
+        "name": "Pasar Setono Betek",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0156048,
+          -7.8147731
+        ]
+      },
+      "properties": {
+        "id": 12740593731,
+        "bus": "yes",
+        "name": "HWTC",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0225316,
+          -7.823166
+        ]
+      },
+      "properties": {
+        "id": 12740593732,
+        "bus": "yes",
+        "name": "Pasar Pahing",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0252122,
+          -7.823846
+        ]
+      },
+      "properties": {
+        "id": 12740593733,
+        "bus": "yes",
+        "name": "Pondok LDII",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0019762,
+          -7.8084606
+        ]
+      },
+      "properties": {
+        "id": 12848676968,
+        "bus": "yes",
+        "name": "Mojoroto Indah",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0035987,
+          -7.8036269
+        ]
+      },
+      "properties": {
+        "id": 12848676969,
+        "bus": "yes",
+        "name": "Aliston Wisata",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0046617,
+          -7.8078363
+        ]
+      },
+      "properties": {
+        "id": 12848676970,
+        "bus": "yes",
+        "name": "Panti Sosial",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.00557,
+          -7.8121783
+        ]
+      },
+      "properties": {
+        "id": 12848676971,
+        "bus": "yes",
+        "name": "Taman Harmoni",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0096372,
+          -7.8109204
+        ]
+      },
+      "properties": {
+        "id": 12848676972,
+        "bus": "yes",
+        "name": "Kantor Pos",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0124409,
+          -7.8113
+        ]
+      },
+      "properties": {
+        "id": 12848676973,
+        "bus": "yes",
+        "name": "SMPN 1 Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0153571,
+          -7.8117928
+        ]
+      },
+      "properties": {
+        "id": 12848676974,
+        "bus": "yes",
+        "name": "Auto 2000",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0177418,
+          -7.8120912
+        ]
+      },
+      "properties": {
+        "id": 12848676975,
+        "bus": "yes",
+        "name": "Polsek Kota",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0202412,
+          -7.8138309
+        ]
+      },
+      "properties": {
+        "id": 12848676976,
+        "bus": "yes",
+        "name": "Apotek Pemuda",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0196881,
+          -7.8165589
+        ]
+      },
+      "properties": {
+        "id": 12848676977,
+        "bus": "yes",
+        "name": "Citihub Joyoboyo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0188872,
+          -7.8207914
+        ]
+      },
+      "properties": {
+        "id": 12848676978,
+        "bus": "yes",
+        "name": "SMPN 3 Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0182906,
+          -7.8238272
+        ]
+      },
+      "properties": {
+        "id": 12848676979,
+        "bus": "yes",
+        "name": "Ruko Kilisuci",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0179988,
+          -7.8252886
+        ]
+      },
+      "properties": {
+        "id": 12848676980,
+        "bus": "yes",
+        "name": "Percetakan Dalas",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0157036,
+          -7.828812
+        ]
+      },
+      "properties": {
+        "id": 12848676981,
+        "bus": "yes",
+        "name": "Simpang Tiga Sunan Geseng",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0111645,
+          -7.8279849
+        ]
+      },
+      "properties": {
+        "id": 12848676982,
+        "bus": "yes",
+        "name": "BTPN Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0063115,
+          -7.8271197
+        ]
+      },
+      "properties": {
+        "id": 12848676983,
+        "bus": "yes",
+        "name": "Bandar Ngalim",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0057297,
+          -7.8175646
+        ]
+      },
+      "properties": {
+        "id": 12848676984,
+        "bus": "yes",
+        "name": "RSUD Kilisuci",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0049014,
+          -7.8118762
+        ]
+      },
+      "properties": {
+        "id": 12848676986,
+        "bus": "yes",
+        "name": "Gereja Merah",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0030736,
+          -7.8111044
+        ]
+      },
+      "properties": {
+        "id": 12848676987,
+        "bus": "yes",
+        "name": "SMAN 1 Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0003444,
+          -7.8144543
+        ]
+      },
+      "properties": {
+        "id": 12848676988,
+        "bus": "yes",
+        "name": "Disperdagin Penanggungan",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9994193,
+          -7.8176708
+        ]
+      },
+      "properties": {
+        "id": 12848676989,
+        "bus": "yes",
+        "name": "UDINUS",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9846095,
+          -7.8294299
+        ]
+      },
+      "properties": {
+        "id": 11799744536,
+        "bus": "yes",
+        "name": "Terminal Tamanan",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9846095,
+          -7.8294299
+        ]
+      },
+      "properties": {
+        "id": 11799744536,
+        "bus": "yes",
+        "name": "Terminal Tamanan",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}

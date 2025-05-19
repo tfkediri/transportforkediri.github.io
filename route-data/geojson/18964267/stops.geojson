@@ -1,0 +1,437 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0327486,
+          -7.8275112
+        ]
+      },
+      "properties": {
+        "id": 12736872613,
+        "bus": "yes",
+        "name": "I.B.H. Pranoto",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0415404,
+          -7.8308751
+        ]
+      },
+      "properties": {
+        "id": 12736872615,
+        "bus": "yes",
+        "name": "I.B.H. Pranoto II",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0482768,
+          -7.8334847
+        ]
+      },
+      "properties": {
+        "id": 12736872617,
+        "bus": "yes",
+        "name": "I.B.H. Pranoto III",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0514145,
+          -7.8346889
+        ]
+      },
+      "properties": {
+        "id": 12736872623,
+        "bus": "yes",
+        "name": "I.B.H. Pranoto IV",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.062952,
+          -7.8442275
+        ]
+      },
+      "properties": {
+        "id": 12736872631,
+        "bus": "yes",
+        "name": "Totok Kerot",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0603984,
+          -7.8503658
+        ]
+      },
+      "properties": {
+        "id": 12736872633,
+        "bus": "yes",
+        "name": "Bawang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.059531,
+          -7.8540197
+        ]
+      },
+      "properties": {
+        "id": 12736872635,
+        "bus": "yes",
+        "name": "Bawang II",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0582161,
+          -7.8568187
+        ]
+      },
+      "properties": {
+        "id": 12736872637,
+        "bus": "yes",
+        "name": "Betet Bawang",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0462036,
+          -7.8521782
+        ]
+      },
+      "properties": {
+        "id": 12736872639,
+        "bus": "yes",
+        "name": "Betet Bawang II",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0425806,
+          -7.8506511
+        ]
+      },
+      "properties": {
+        "id": 12736872640,
+        "bus": "yes",
+        "name": "Betet Bawang III",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0328055,
+          -7.8468531
+        ]
+      },
+      "properties": {
+        "id": 12736872643,
+        "bus": "yes",
+        "name": "Betet Bawang IV",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0308322,
+          -7.8410965
+        ]
+      },
+      "properties": {
+        "id": 12736872645,
+        "bus": "yes",
+        "name": "Kapten Tendean/Permata Hijau",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0311034,
+          -7.8391895
+        ]
+      },
+      "properties": {
+        "id": 12736872647,
+        "bus": "yes",
+        "name": "Permata Hijau",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.031224,
+          -7.8300697
+        ]
+      },
+      "properties": {
+        "id": 12736872649,
+        "bus": "yes",
+        "name": "D.I. Pandjaitan",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0301149,
+          -7.8253538
+        ]
+      },
+      "properties": {
+        "id": 12736872651,
+        "bus": "yes",
+        "name": "Letjend Sutoyo II",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0289571,
+          -7.8249349
+        ]
+      },
+      "properties": {
+        "id": 12736872653,
+        "bus": "yes",
+        "name": "Letjend Sutoyo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0288192,
+          -7.8192001
+        ]
+      },
+      "properties": {
+        "id": 12740593721,
+        "bus": "yes",
+        "name": "MAN 2 Kediri",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.02666,
+          -7.8175028
+        ]
+      },
+      "properties": {
+        "id": 12740593722,
+        "bus": "yes",
+        "name": "SDN Banjaran",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0211206,
+          -7.8159437
+        ]
+      },
+      "properties": {
+        "id": 12740593724,
+        "bus": "yes",
+        "name": "Bank Mega",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0192392,
+          -7.815551
+        ]
+      },
+      "properties": {
+        "id": 12740593725,
+        "bus": "yes",
+        "name": "Kediri Mall",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0133222,
+          -7.8168231
+        ]
+      },
+      "properties": {
+        "id": 12740593726,
+        "bus": "yes",
+        "name": "Dhoho",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0164816,
+          -7.8216714
+        ]
+      },
+      "properties": {
+        "id": 12740593730,
+        "bus": "yes",
+        "name": "Pasar Setono Betek",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0156048,
+          -7.8147731
+        ]
+      },
+      "properties": {
+        "id": 12740593731,
+        "bus": "yes",
+        "name": "HWTC",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0225316,
+          -7.823166
+        ]
+      },
+      "properties": {
+        "id": 12740593732,
+        "bus": "yes",
+        "name": "Pasar Pahing",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0252122,
+          -7.823846
+        ]
+      },
+      "properties": {
+        "id": 12740593733,
+        "bus": "yes",
+        "name": "Pondok LDII",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0644771,
+          -7.840252
+        ]
+      },
+      "properties": {
+        "id": 12736872625,
+        "bus": "yes",
+        "name": "Terminal Tempurejo",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.0644771,
+          -7.840252
+        ]
+      },
+      "properties": {
+        "id": 12736872625,
+        "bus": "yes",
+        "name": "Terminal Tempurejo",
+        "public_transport": "stop_position"
+      }
+    }
+  ]
+}
