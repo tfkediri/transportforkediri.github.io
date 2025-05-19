@@ -10,11 +10,11 @@ let gpsButton;
 // Initialize the map
 function initMap() {
     // Create map
-    map = L.map('map').setView([-6.9104, 107.6183], 12);
+    map = L.map('map').setView([-7.82155, 112.03119], 13);
 
     // Add OpenStreetMap base layer
-    var tileLayer = L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=82a34c1241504050b0eec9b660daf460', {
-    attribution: '<a href="https://www.thunderforest.com/">Thunderforest</a> | <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | <a href="https://transportforbandung.org/tentang-kami">Transport for Bandung</a>'
+    var tileLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap Contributors</a> | Transport for Kediri'
     }).addTo(map);
 
     // When tiles load, hide the loader
