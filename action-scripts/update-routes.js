@@ -11,11 +11,11 @@ function loadRouteData() {
     const fileContent = fs.readFileSync(routesPath, 'utf-8');
     const routesData = JSON.parse(fileContent);
 
-    // Extract routes from categories
-    const allRoutes = routesData.categories.flatMap(category => category.routes);
+    // Get routes array directly
+    const allRoutes = routesData.routes;
 
     if (!Array.isArray(allRoutes)) {
-      throw new Error('No routes found in categories array');
+      throw new Error('No routes found in routes array');
     }
 
     // Validate each route object
