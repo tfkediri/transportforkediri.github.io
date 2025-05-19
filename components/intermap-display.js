@@ -92,62 +92,59 @@ function fetchOverpassRoute(relationId, displayType, routeColor) {
     });
 }
 
-// route-loader.js functions
+// Modified route-loader.js functions
 async function initializeRoutes() {
   try {
     const container = document.getElementById('route-container');
     const response = await fetch(config.routesDataUrl);
-    const { categories } = await response.json();
+    const { routes } = await response.json(); // Changed to read routes directly
 
     const fragment = document.createDocumentFragment();
 
-    categories.forEach((category, index) => {
-      const accordionId = `accordion-category-${index}`;
-      const collapseId = `collapse-category-${index}`;
-      
-      const categoryHTML = `
-        <div class="accordion mb-3" id="${accordionId}">
-          <div class="accordion-item">
-            <div class="accordion-header" id="heading-${index}">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
-                ${category.name}
-              </button>
-            </div>
-            <div id="${collapseId}" class="accordion-collapse collapse" aria-labelledby="heading-${index}" data-bs-parent="#${accordionId}">
-              <div class="accordion-body">
-                <div class="form-check mb-3" style="margin-bottom: 1.5rem !important;">
-                  <input class="form-check-input master-checkbox" 
-                         type="checkbox" 
-                         id="master-${index}"
-                         data-category-index="${index}">
-                  <label class="form-check-label fw-bold" for="master-${index}">
-                    Pilih semua
+    // Create a single container for all routes
+    const routesHTML = `
+      <div class="accordion mb-3" id="routes-accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" id="heading-all">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#collapse-all" aria-expanded="true" 
+                    aria-controls="collapse-all">
+              All Routes
+            </button>
+          </div>
+          <div id="collapse-all" class="accordion-collapse collapse show" 
+               aria-labelledby="heading-all" data-bs-parent="#routes-accordion">
+            <div class="accordion-body">
+              <div class="form-check mb-3" style="margin-bottom: 1.5rem !important;">
+                <input class="form-check-input master-checkbox" 
+                       type="checkbox" 
+                       id="master-all">
+                <label class="form-check-label fw-bold" for="master-all">
+                   Pilih semua rute
+                </label>
+              </div>
+              ${routes.map((route, index) => `
+                <div class="form-check mb-2" style="margin-bottom: 1.0rem !important;">
+                  <input class="form-check-input route-checkbox" 
+                         type="checkbox"
+                         id="route-${index}"
+                         data-relation-id="${route.relationId}"
+                         data-display-type="${route.type}"
+                         data-route-color="${route.color}">
+                  <label class="form-check-label" for="route-${index}">
+                    ${route.name}
                   </label>
                 </div>
-                ${category.routes.map((route, routeIndex) => `
-                  <div class="form-check mb-2" style="margin-bottom: 1.0rem !important;">
-                    <input class="form-check-input route-checkbox" 
-                           type="checkbox"
-                           id="route-${index}-${routeIndex}"
-                           data-relation-id="${route.relationId}"
-                           data-display-type="${route.type}"
-                           data-route-color="${route.color}"
-                           data-category-index="${index}">
-                    <label class="form-check-label" for="route-${index}-${routeIndex}">
-                      ${route.name}
-                    </label>
-                  </div>
-                `).join('')}
-              </div>
+              `).join('')}
             </div>
           </div>
         </div>
-      `;
+      </div>
+    `;
 
-      const tempDiv = document.createElement('div');
-      tempDiv.innerHTML = categoryHTML;
-      fragment.appendChild(tempDiv.firstElementChild);
-    });
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = routesHTML;
+    fragment.appendChild(tempDiv.firstElementChild);
 
     container.appendChild(fragment);
     setupEventDelegation();
@@ -156,26 +153,20 @@ async function initializeRoutes() {
   }
 }
 
+// Modified event delegation
 function setupEventDelegation() {
   const container = document.getElementById('route-container');
 
-  const updateMasterCheckbox = (categoryIndex) => {
-    const checkboxes = container.querySelectorAll(
-      `.route-checkbox[data-category-index="${categoryIndex}"]`
-    );
-    const master = container.querySelector(
-      `.master-checkbox[data-category-index="${categoryIndex}"]`
-    );
+  const updateMasterCheckbox = () => {
+    const checkboxes = container.querySelectorAll('.route-checkbox');
+    const master = container.querySelector('.master-checkbox');
     const checkedCount = [...checkboxes].filter(c => c.checked).length;
     master.checked = checkedCount === checkboxes.length;
+    master.indeterminate = checkedCount > 0 && checkedCount < checkboxes.length;
   };
 
   const handleMasterChange = async (masterCheckbox) => {
-    const categoryIndex = masterCheckbox.dataset.categoryIndex;
-    const checkboxes = container.querySelectorAll(
-      `.route-checkbox[data-category-index="${categoryIndex}"]`
-    );
-
+    const checkboxes = container.querySelectorAll('.route-checkbox');
     masterCheckbox.disabled = true;
     const isChecked = masterCheckbox.checked;
 
@@ -202,7 +193,7 @@ function setupEventDelegation() {
     }
 
     masterCheckbox.disabled = false;
-    updateMasterCheckbox(categoryIndex);
+    updateMasterCheckbox();
   };
 
   container.addEventListener('change', async (e) => {
@@ -214,7 +205,6 @@ function setupEventDelegation() {
     }
 
     if (checkbox.classList.contains('route-checkbox')) {
-      const categoryIndex = checkbox.dataset.categoryIndex;
       const { relationId, displayType, routeColor } = checkbox.dataset;
       
       try {
@@ -229,7 +219,7 @@ function setupEventDelegation() {
         checkbox.checked = false;
       } finally {
         checkbox.disabled = false;
-        updateMasterCheckbox(categoryIndex);
+        updateMasterCheckbox();
       }
     }
   });
