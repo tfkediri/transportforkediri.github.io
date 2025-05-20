@@ -566,6 +566,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          112.0058436,
+          -7.8245582
+        ]
+      },
+      "properties": {
+        "id": 12849580428,
+        "bus": "yes",
+        "name": "PHD Wachid Hasyim",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           111.9846095,
           -7.8294299
         ]
