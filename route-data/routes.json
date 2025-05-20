@@ -3,13 +3,13 @@
     {
       "name": "Rute Barat: Terminal Tamanan → Sekartaji → Jalan Dhoho → Burengan → Terminal Tamanan",
       "relationId": "16822680",
-      "color": "#7C4D96",
+      "color": "#96280D",
       "type": "ways_with_points"
     },
     {
       "name": "Rute Timur: Terminal Tempurejo → Jalan Dhoho → Terminal Tempurejo",
       "relationId": "18964267",
-      "color": "#F06597",
+      "color": "#135390",
       "type": "ways_with_points"
     }
   ]
